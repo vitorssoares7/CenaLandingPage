@@ -1,0 +1,1 @@
+Projeto pessoal com proposito de estudos para tentar copiar a landing page da "Cena construções".

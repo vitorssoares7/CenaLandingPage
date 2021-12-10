@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+/* Divs gerais */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+/*********/
+
+header{
+    background-color: #D6D6D6;
+    padding: 10px 2%;
+}
+
+.logo1{
+    float: left;
+    width: 150px;
+    height: 60px;
+    background-image: url(../imagens/logo1.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-color: purple;*/
+}
+
+.logo2{
+    float: right;
+    width: 160px;
+    height: 60px;
+    background-image: url(../imagens/logo2.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-color: green;*/
+}
+
+section.cover-form{
+    width: 100%;
+    padding: 0 2%;
+}
+
+.container-bg{
+    background-image: url(../imagens/bg-form.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.container-form{
+    float: right;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+}
+
+.container-form h2{
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+    background-color: rgba(234, 236, 237, 0.7);
+}
+
+@media screen and (max-width: 510px){
+    header{
+        text-align: center;
+    }
+
+    .logo1, .logo2{
+        margin-top: 10px;
+        display: inline-block;
+        float: none;
+    }
+}
+
+
